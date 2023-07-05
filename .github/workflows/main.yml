@@ -26,4 +26,4 @@ jobs:
       run: python app.py # Укажите команду для сборки приложения
 
     - name: Run tests
-      run: python -m pytest # Укажите команду для запуска тестов
+      run: python -m test.sh # Укажите команду для запуска тестов
